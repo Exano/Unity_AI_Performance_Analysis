@@ -1,25 +1,26 @@
 {
-  "name": "com.tonythedev.unity-ai-performance-analysis",
+  "name": "com.tonythedev.frame-analyzer",
   "version": "0.1.0",
-  "displayName": "AI Performance Analysis",
-  "description": "1-Click Play Mode profiler for Unity 6 + URP. Captures CPU, GPU, memory, per-URP-pass timing, and scene structure, streaming AI-powered performance reports via Claude.",
+  "displayName": "Frame Analyzer",
+  "description": "One-click Play Mode performance analysis with AI-powered insights via Claude Code CLI.",
   "unity": "6000.0",
   "author": {
     "name": "TonyTheDev",
     "url": "https://tonythedev.com"
   },
+  "license": "BUSL-1.1",
+  "dependencies": {
+    "com.unity.render-pipelines.universal": "17.0.0",
+    "com.unity.render-pipelines.core": "17.0.0",
+    "com.unity.memoryprofiler": "1.1.0",
+    "com.unity.performance.profile-analyzer": "1.2.2"
+  },
   "keywords": [
-    "profiler",
     "performance",
-    "ai",
-    "claude",
-    "urp",
-    "gpu",
-    "cpu",
-    "memory",
+    "profiler",
     "analysis",
-    "editor"
+    "URP",
+    "AI"
   ],
-  "category": "Editor",
-  "license": "BUSL-1.1"
+  "type": "tool"
 }
